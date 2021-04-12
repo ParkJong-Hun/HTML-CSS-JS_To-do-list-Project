@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="page_css.css">
+    <title>To do List by PJH</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <article>
+                <h1><strong>To do List</strong></h1>
+                <p>This is my To do List</p>
+                <form action="page_add.js">
+                    <input type="text" id ="text_add" placeholder="Please add some list" autofocus>
+                    <button type="button" id ="button_add"><b>ADD</b></button>
+                </form>
+            </article>
+            <article>
+                <div>
+                    <ul id = "list">
+                        <li>List1</li>
+                        <form action="page_delete.js">
+                            <button type="button" id="delete_add">Delete</button>
+                        </form>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
